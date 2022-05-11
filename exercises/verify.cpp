@@ -11,8 +11,16 @@ using namespace std;
 
 int main()
 {
-  // placeholder
-  int N[10] = [ 3, 4, 5, 1, 2, 3, 4, 9, 13, 0 ];
-
-  return 0;
+	int x;
+	cout << "Inser number: ";
+	cin >> x;
+	cout << endl;
+  	// placeholder
+  	int N[10] = [ 3, 4, 5, 1, 2, 3, 4, 9, 13, 0 ];
+	for (int i=0;i<10;i++){
+		if (N[i]==x){
+			cout << "The number " << i << " is present in the array.";
+		}
+	}
+  	return 0;
 }
